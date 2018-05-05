@@ -1,5 +1,7 @@
 <img src="assets/banner.png" alt="Typha Banner">
+
 > Web version of Typha.
+
 <hr>
 <img src="https://travis-ci.org/caxvis/typha-web.svg?branch=master" alt="Repository Build Status">
 
