@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "node"
+  - "7"
+cache:
+  directories:
+    - node_modules/
+install:
+  - npm install
+script:
+  - npm run build
+deploy:
+  provider: surge
+  project: ./
+  domain: musik.surge.sh
+  skip_cleanup: true
