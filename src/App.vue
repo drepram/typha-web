@@ -103,7 +103,8 @@ export default {
 
 <style lang="scss">
 
-  $c-primary: #F44336;
+  $red: #F44336;
+  $green: #1dd1a1;
 
   // Global
   body { font-family: 'Raleway', sans-serif; }
@@ -127,7 +128,7 @@ export default {
   
   // Title
   h1 { 
-    span { color: $c-primary; }  
+    span { color: $red; }  
   }
   .subtitle-text {
     color: #00C853;
@@ -140,7 +141,7 @@ export default {
 
       &:focus {
         outline: none;
-        border-color: $c-primary;      
+        border-color: $green;      
       }
     }
     
@@ -161,7 +162,6 @@ export default {
     &:after {
       content: '';
       width: 0%; height: 2px;
-      background: $c-primary;
       position: absolute;
       left: 0; top: 50%;
       display: block;
@@ -169,7 +169,7 @@ export default {
     }
 
     &.completed {
-      color: #c8ccd4;
+      color: #fff;
       &:after {
         width: 100%;
       }
@@ -178,7 +178,7 @@ export default {
 
   .cbx:checked ~ .cbx__child {
     border-color: transparent;
-    background: $c-primary;
+    background: $red;
     animation: jelly 0.6s ease;
   }
   
