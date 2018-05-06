@@ -12,5 +12,5 @@ script:
 deploy:
   provider: surge
   project: ./
-  domain: musik.surge.sh
+  domain: typha.surge.sh
   skip_cleanup: true
