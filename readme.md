@@ -26,4 +26,4 @@ npm run build
 
 ## License
 
-Typha is licensed under the MIT License.
+Typha is licensed under the MIT License. You can view the `license.md` file [here](https://github.com/caxvis/typha-web/blob/master/license.md).
